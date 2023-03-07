@@ -18,7 +18,7 @@ def play_game():
             print("You win!")
             break
         elif total in [2, 3, 12]:
-            print("You lose.")
+            print("Oh! You lose.")
             break
         else:
             print(f"The sum of dice is {dice1} + {dice2} = {dice1+dice2}. Now, your goal is {total}. Roll again.")
@@ -31,7 +31,7 @@ def play_game():
                     print("You win!")
                     return
                 elif total == 7:
-                    print("You lose.")
+                    print("Oh! You lose.")
                     return
 
 play_game()
